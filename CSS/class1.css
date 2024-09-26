@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#nav{
+   
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+    align-items: ceneter;
+    justify-items: center;
+    padding: 10px 0px;
+    
+}
+h1{
+    justify-self: start;
+}

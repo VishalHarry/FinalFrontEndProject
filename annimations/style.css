@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+   
+}
+#box1{
+    height: 300px;
+    width: 300px;
+   background-color: rgb(134, 28, 28);
+   position: relative;
+   /* Appli here */
+   animation-name: box;
+   animation-duration: 2s;
+   animation-delay: 1.5s;
+   */
+   animation-iteration-count: 2;
+   
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+}
+@keyframes box {
+    from{
+left: 0;
+    }
+    to{
+left: 75%;
+    }
+}
+
+
+/* crate transitions */
+@keyframes move {
+    from{
+left: 0;
+background-color: red;
+rotate: 0;
+    }
+    to{
+        left: 60%;
+        background-color: blue;
+        rotate: 360deg;
+    }
+}
+
+img{
+    height: 300px;
+    position: relative;
+    animation-name:mosi ;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes mosi{
+   0%{
+    left: 0;
+    top: 0;
+    rotate: 360deg;
+   }
+   50%{
+    left: 80%;
+    top: 0;
+    rotate: 0deg;
+   }
+   100%{
+    left: 80%;
+    top: 50%;
+    rotate: 360deg;
+   }
+
+} 
+h1{
+    font-size: 100px;
+    color: red;
+}
+h1::after{
+    content: "?🤣hii dosto";
+}
+h1::before{
+    content: "heheh";
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+#box::after{
+    content: "kasa ho";
+}
+    

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+ 
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(98, 217, 250);
+   
+}
+
+#child1{
+    height: 100vh;
+    width: 60%;
+    background-color: green;
+   
+}
+#child2{
+    height: 100vh;
+    width: 60%;
+    background-color: rgb(183, 76, 165);
+   
+}
+#child{
+    height:10vw;
+    width:10vw;
+    background-color: blue;
+}
+h1{
+    font-size: 50em;
+}
+h2{
+    font-size: 30em;
+}
+h3{
+    font-size: 20em;
+}
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: #7373df;
+}
+@media (max-width:600px) {
+    #box{
+        background-color: #b03030;
+        height: 300px;
+        width: 200px;
+        border-radius: 50%;
+    }
+}
